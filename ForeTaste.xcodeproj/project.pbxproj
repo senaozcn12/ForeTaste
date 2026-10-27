@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A62354773008194D00EA1299 /* UserTastePreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62354763008194D00EA1299 /* UserTastePreferences.swift */; };
+		A62354793008402000EA1299 /* RestaurantModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62354783008402000EA1299 /* RestaurantModels.swift */; };
+		A623547B3008404C00EA1299 /* ProfilePreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A623547A3008404C00EA1299 /* ProfilePreferencesView.swift */; };
+		A623547D3008406C00EA1299 /* HomeAIPicksSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A623547C3008406C00EA1299 /* HomeAIPicksSection.swift */; };
+		A623547F3008409C00EA1299 /* RestaurantMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A623547E3008409C00EA1299 /* RestaurantMapView.swift */; };
+		A62354813008421500EA1299 /* UserLocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62354803008421500EA1299 /* UserLocationProvider.swift */; };
+		A62354833008422200EA1299 /* RestaurantSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62354823008422200EA1299 /* RestaurantSearchService.swift */; };
+		A62916C5301583F1003C5A0E /* TasteSurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62916C4301583F0003C5A0E /* TasteSurveyView.swift */; };
+		A62916C7301585EF003C5A0E /* MenuRecommendationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62916C6301585EF003C5A0E /* MenuRecommendationService.swift */; };
+		A6E2DCBA300E83F800779B0F /* ForeTasteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E2DCB9300E83F800779B0F /* ForeTasteApp.swift */; };
+		A6E2DCBC30119FAE00779B0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E2DCBB30119FAE00779B0F /* ContentView.swift */; };
+		A6E2DCBE3011A0ED00779B0F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E2DCBD3011A0ED00779B0F /* LoginView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A62354763008194D00EA1299 /* UserTastePreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTastePreferences.swift; sourceTree = "<group>"; };
+		A62354783008402000EA1299 /* RestaurantModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantModels.swift; sourceTree = "<group>"; };
+		A623547A3008404C00EA1299 /* ProfilePreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePreferencesView.swift; sourceTree = "<group>"; };
+		A623547C3008406C00EA1299 /* HomeAIPicksSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAIPicksSection.swift; sourceTree = "<group>"; };
+		A623547E3008409C00EA1299 /* RestaurantMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantMapView.swift; sourceTree = "<group>"; };
+		A62354803008421500EA1299 /* UserLocationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocationProvider.swift; sourceTree = "<group>"; };
+		A62354823008422200EA1299 /* RestaurantSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantSearchService.swift; sourceTree = "<group>"; };
+		A62916C4301583F0003C5A0E /* TasteSurveyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteSurveyView.swift; sourceTree = "<group>"; };
+		A62916C6301585EF003C5A0E /* MenuRecommendationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRecommendationService.swift; sourceTree = "<group>"; };
+		A64F06902FF569540064C2C2 /* ForeTaste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForeTaste.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E2DCB9300E83F800779B0F /* ForeTasteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForeTasteApp.swift; sourceTree = "<group>"; };
+		A6E2DCBB30119FAE00779B0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A6E2DCBD3011A0ED00779B0F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A6235485300843A000EA1299 /* Exceptions for "ForeTaste" folder in "ForeTaste" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A64F068F2FF569540064C2C2 /* ForeTaste */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A64F06922FF569540064C2C2 /* ForeTaste */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A6235485300843A000EA1299 /* Exceptions for "ForeTaste" folder in "ForeTaste" target */,
+			);
+			path = ForeTaste;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A64F068D2FF569540064C2C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A64F06872FF569540064C2C2 = {
+			isa = PBXGroup;
+			children = (
+				A64F06922FF569540064C2C2 /* ForeTaste */,
+				A64F06912FF569540064C2C2 /* Products */,
+				A62354763008194D00EA1299 /* UserTastePreferences.swift */,
+				A62354783008402000EA1299 /* RestaurantModels.swift */,
+				A623547A3008404C00EA1299 /* ProfilePreferencesView.swift */,
+				A623547C3008406C00EA1299 /* HomeAIPicksSection.swift */,
+				A623547E3008409C00EA1299 /* RestaurantMapView.swift */,
+				A62354803008421500EA1299 /* UserLocationProvider.swift */,
+				A62354823008422200EA1299 /* RestaurantSearchService.swift */,
+				A6E2DCB9300E83F800779B0F /* ForeTasteApp.swift */,
+				A6E2DCBB30119FAE00779B0F /* ContentView.swift */,
+				A6E2DCBD3011A0ED00779B0F /* LoginView.swift */,
+				A62916C4301583F0003C5A0E /* TasteSurveyView.swift */,
+				A62916C6301585EF003C5A0E /* MenuRecommendationService.swift */,
+			);
+			sourceTree = "<group>";
+		};
+		A64F06912FF569540064C2C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A64F06902FF569540064C2C2 /* ForeTaste.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A64F068F2FF569540064C2C2 /* ForeTaste */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A64F069B2FF569550064C2C2 /* Build configuration list for PBXNativeTarget "ForeTaste" */;
+			buildPhases = (
+				A64F068C2FF569540064C2C2 /* Sources */,
+				A64F068D2FF569540064C2C2 /* Frameworks */,
+				A64F068E2FF569540064C2C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A64F06922FF569540064C2C2 /* ForeTaste */,
+			);
+			name = ForeTaste;
+			packageProductDependencies = (
+			);
+			productName = ForeTaste;
+			productReference = A64F06902FF569540064C2C2 /* ForeTaste.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A64F06882FF569540064C2C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					A64F068F2FF569540064C2C2 = {
+						CreatedOnToolsVersion = 26.6;
+					};
+				};
+			};
+			buildConfigurationList = A64F068B2FF569540064C2C2 /* Build configuration list for PBXProject "ForeTaste" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A64F06872FF569540064C2C2;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A64F06912FF569540064C2C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A64F068F2FF569540064C2C2 /* ForeTaste */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A64F068E2FF569540064C2C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A64F068C2FF569540064C2C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62916C7301585EF003C5A0E /* MenuRecommendationService.swift in Sources */,
+				A623547F3008409C00EA1299 /* RestaurantMapView.swift in Sources */,
+				A62354833008422200EA1299 /* RestaurantSearchService.swift in Sources */,
+				A623547B3008404C00EA1299 /* ProfilePreferencesView.swift in Sources */,
+				A6E2DCBA300E83F800779B0F /* ForeTasteApp.swift in Sources */,
+				A62916C5301583F1003C5A0E /* TasteSurveyView.swift in Sources */,
+				A623547D3008406C00EA1299 /* HomeAIPicksSection.swift in Sources */,
+				A6E2DCBC30119FAE00779B0F /* ContentView.swift in Sources */,
+				A62354793008402000EA1299 /* RestaurantModels.swift in Sources */,
+				A62354813008421500EA1299 /* UserLocationProvider.swift in Sources */,
+				A6E2DCBE3011A0ED00779B0F /* LoginView.swift in Sources */,
+				A62354773008194D00EA1299 /* UserTastePreferences.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A64F06992FF569550064C2C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 43SVV829V8;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A64F069A2FF569550064C2C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 43SVV829V8;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A64F069C2FF569550064C2C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43SVV829V8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ForeTaste/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sena.ForeTaste;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A64F069D2FF569550064C2C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43SVV829V8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ForeTaste/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sena.ForeTaste;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A64F068B2FF569540064C2C2 /* Build configuration list for PBXProject "ForeTaste" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A64F06992FF569550064C2C2 /* Debug */,
+				A64F069A2FF569550064C2C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A64F069B2FF569550064C2C2 /* Build configuration list for PBXNativeTarget "ForeTaste" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A64F069C2FF569550064C2C2 /* Debug */,
+				A64F069D2FF569550064C2C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A64F06882FF569540064C2C2 /* Project object */;
+}

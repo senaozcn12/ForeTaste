@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDisplayName</key>
+    <string>MenuMind</string>
+    <key>CFBundleName</key>
+    <string>MenuMind</string>
+    <key>NSCameraUsageDescription</key>
+    <string>MenuMind uses the camera to scan restaurant menus.</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>MenuMind uses your location to find nearby restaurants.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>MenuMind uses your location to find nearby restaurants.</string>
+    <key>UIAppFonts</key>
+    <array>
+        <string>OpenDyslexic-Regular.otf</string>
+        <string>OpenDyslexic-Bold.otf</string>
+        <string>OpenDyslexic-Italic.otf</string>
+        <string>OpenDyslexic-BoldItalic.otf</string>
+    </array>
+</dict>
+</plist>
